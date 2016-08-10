@@ -1,0 +1,15 @@
+{
+  "name": "getUserRepos",
+  "version": "0.1.0",
+  "description": "Un ejemplo de cómo crear un módulo en ES6 y publicar como ES5 través de Babel.",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "babel -d lib src/"
+  },
+  "author": "Esteban Fuster Pozzi",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.1.2",
+    "babel-preset-es2015": "^6.1.2"
+  }
+}
