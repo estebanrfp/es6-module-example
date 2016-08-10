@@ -1,7 +1,7 @@
 {
   "name": "getUserRepos",
   "version": "0.1.0",
-  "description": "Un ejemplo de cómo crear un módulo en ES6 y publicar como ES5 través de Babel.",
+  "description": "Un ejemplo de cómo crear un módulo en ES6 y publicar como ES5 a través de Babel.",
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "babel -d lib src/"
